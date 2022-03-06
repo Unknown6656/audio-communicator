@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputPath>$(SolutionDir)bin</OutputPath>
+
+        <LangVersion>preview</LangVersion>
+        <EnablePreviewFeatures>True</EnablePreviewFeatures>
+        <!-- <GenerateRequiresPreviewFeaturesAttribute>False</GenerateRequiresPreviewFeaturesAttribute> -->
+        <Nullable>enable</Nullable>
+        <NullableContextOptions>enable</NullableContextOptions>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <OutputPath>$(SolutionDir)bin</OutputPath>
+
+        <Deterministic>true</Deterministic>
+        <!-- <TrimMode>Link</TrimMode> -->
+        <!-- <PublishTrimmed>true</PublishTrimmed> -->
+        <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+        <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\communicator\communicator.csproj" />
+    </ItemGroup>
+</Project>
