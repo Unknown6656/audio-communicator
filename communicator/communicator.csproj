@@ -27,6 +27,6 @@
     <ItemGroup>
         <PackageReference Include="NAudio" Version="2.0.1" />
         <PackageReference Include="NAudio.Core" Version="2.0.0" />
-        <PackageReference Include="Unknown6656.Generics" Version="0.9.1" />
+        <PackageReference Include="Unknown6656.Generics" Version="0.9.5" />
     </ItemGroup>
 </Project>
